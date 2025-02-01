@@ -1,0 +1,11 @@
+.service{
+    padding: 64px 20px;
+    
+}
+.service h3{
+    padding: 0px;
+    margin-bottom: 20px;
+    font-size: 24px !important;
+        line-height: 32px !important;
+        font-weight: 700 !important;
+}

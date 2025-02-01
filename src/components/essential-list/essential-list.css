@@ -1,0 +1,59 @@
+.essential-list{
+    padding: 64px 10px;
+    border-bottom: 1px solid #e9eced;
+
+}
+
+.essential-list h5{
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+    margin-bottom: 16px;
+}
+.essential-list p.subh{
+  font-size: 14px !important;
+    line-height: 20px !important;
+    margin-bottom: 24px;
+    color: #676d73;
+}
+.image-card {
+    position: relative;
+   
+    overflow: hidden;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+  
+  .text-overlay {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -10%, rgba(0, 0, 0, 0.9) 100%);
+    padding: 10px;
+   
+    border-radius: 4px;
+  }
+  
+  .text-overlay h3 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+  }
+  
+  .text-overlay p {
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+  }
+  

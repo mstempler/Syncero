@@ -1,0 +1,16 @@
+.filter{
+    padding: 64px 10px;
+    border-bottom: 1px solid #e9eced;
+}
+
+.filter h5{
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+    margin-bottom: 16px;
+}
+.filter{
+    font-size: 14px !important;
+    line-height: 20px !important;
+    margin-bottom: 16px;
+}

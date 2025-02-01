@@ -1,0 +1,214 @@
+.banner-text{
+    padding: 90px 0px 0px 0px;
+}
+.banner-text img{
+  width: 40px;
+}
+  .banner-text svg{
+    margin-bottom: 16px !important;
+  }
+  .homepage-hero_heavy {
+    margin-bottom: 32px !important;
+    font-weight: 800 !important;
+    font-size: 50px !important;
+        line-height: 52px;
+  }
+  
+  .homepage-hero_textCarousel {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    height: 1.4em; /* Matches the line height */
+  }
+  
+  .homepage-hero_scroll {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    animation:  10s ease-in-out infinite;
+
+  }
+  
+  .homepage-hero_scroll li {
+    animation: scrollText 10s linear infinite;
+    height: 1.4em; /* Matches the line height */
+   
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateY(0%);
+    }
+    20% {
+      transform: translateY(0%);
+    }
+    25% {
+      transform: translateY(-100%);
+    }
+    45% {
+      transform: translateY(-100%);
+    }
+    50% {
+      transform: translateY(-200%);
+    }
+    70% {
+      transform: translateY(-200%);
+    }
+    75% {
+      transform: translateY(-300%);
+    }
+    95% {
+      transform: translateY(-300%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  .banner-link{
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+   margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-link .link1{
+    color: #009fd9;
+    text-decoration: none;
+    margin-right: 32px !important;
+  }
+  .banner-link .link2{
+    color: #676d73;
+    text-decoration: none;
+    margin-right: 32px !important;
+  }
+
+  .banner-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+   
+  }
+  
+  .search-input,
+  .zip-input {
+    height: 54px;
+    white-space: nowrap !important;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #e9eced !important;
+    border-radius: 4px;
+    outline: none;
+    flex-grow: 1;
+    transition: border-color 0.3s;
+  }
+  
+  .search-input {
+    border-right: none !important;
+    flex-basis: 70%;
+  }
+  
+  .zip-input {
+    
+    border-left: none !important;
+    flex-basis: 20%;
+    text-align: center;
+  }
+  .banner-search hr {
+    width: 1px !important;
+    height: 34px;
+    background-color: #8f9091 !important;
+}
+  
+  .search-input:focus,
+  .zip-input:focus {
+    border-color: #009fd9;
+  }
+  
+  .search-btn {
+    background-color: #009fd9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-btn:hover {
+    background-color: #009fd9;
+  }
+  
+  .banner-search input::placeholder {
+    color: #888;
+  }
+  
+  .banner-search input[type="number"]::-webkit-inner-spin-button,
+  .banner-search input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .try-text{
+    margin-top: 15px;
+    color: #676d73 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .try{
+    color: #009fd9;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .img-baner{
+    padding: 90px 0px 0px 0px;
+  }
+
+  .black {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+@media only screen and (max-width: 768px) and (min-width: 320px)  {
+    .img-baner, .banner-text {
+        padding: 20px 0px 0px 0px;
+    }
+    .banner{
+      padding: 20px;
+    }
+    .banner-text {
+        text-align: center;
+    }
+    .search-input,
+  .zip-input {
+    width: 100%;
+    margin: 5px 0;
+  }
+  button.search-btn {
+    width: 100%;
+}
+    .banner-search {
+      gap: 8px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+  }
+        .banner-search {
+            display: block;
+            margin: 0 auto;
+        }
+        .homepage-hero_heavy{
+          font-size: 32px !important;
+        }
+        .banner-link {
+          justify-content: center;
+}
+.visit-banner{
+  text-align: left !important;
+}
+}

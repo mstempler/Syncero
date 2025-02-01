@@ -1,0 +1,107 @@
+.tab{
+    padding: 40px 10px;
+}
+.nav li a {
+    text-decoration: none;
+    
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #2f3033!important;
+}
+.nav-tabs{
+    margin:  20px 0px;
+    border: none;
+}
+.nav .nav-tabs li.active{
+text-decoration: none;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #009fd9!important
+}
+.nav-tabs .nav-item.active a.nav-link:hover{
+  border-bottom: 3px solid #009fd9 !important;
+  COLOR: #009fd9 !important;
+}
+.nav-item:focus-visible {
+  outline: none !important;
+  
+}
+li.active a.nav-link{
+  border-bottom: 3px solid #009fd9 !important;
+  COLOR: #009fd9 !important;
+}
+li.nav-item:hover{
+  
+
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none;}
+
+    .section {
+        position: relative;
+        width: 100%;
+      border-radius: 4px;
+        margin: auto;
+        overflow: hidden;
+      }
+      .section img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        color: #fff;
+      }
+      .overlay .icon {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .overlay h1 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        line-height: 1.4;
+      }
+      .overlay p {
+        text-decoration: none;
+        font-size: 12px !important;
+        line-height: 18px !important;}
+      .overlay a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+        display: inline-block;
+      }
+      .home-section h4{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        max-height: 48px;
+        margin-bottom: 4px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .home-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 5px;
+    }
+    .home-section span{
+        font-size: 12px;
+        line-height: 18px;
+        color: #009fd9
+    }

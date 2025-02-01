@@ -1,0 +1,102 @@
+h5.home-title{
+    font-size: 32px;
+    color: #2f3033;
+        line-height: 40px;
+        font-weight: 700;
+}
+.home-des{
+    padding: 64px 10px;
+}
+.time{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #676d73;
+    
+}
+.formatted-content p a{
+    color: #009fd9;
+    text-decoration: none;
+}
+.title-index{
+    font-size: 20px;
+    line-height: 28px;
+    
+    margin-top: 40px !important;
+}
+table {
+    width: 100%;
+    color: #2f3033;
+    font-size: 16px;
+}
+ table td,  table th {
+    padding: 8px 0px;
+}
+table>tbody>tr:first-child {
+    border-bottom: 1px solid #e9eced;
+}
+table td p{
+    margin: 0px;
+}
+.source{
+    padding: 20px 0px;
+}
+.source a{
+    color: #009fd9;
+    text-decoration: none;
+} 
+p.detail{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #2f3033;
+
+}
+.index-sec ul li a {
+    color: #009fd9;
+    text-decoration: none;
+}
+.compare{
+    border-radius: 6px !important;
+    background-color: #eaf6fa;
+    margin-top:32px;
+    padding: 32px !important;
+}
+.compare h2{
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+}
+.compare input{
+    margin: 20px 0px;
+    height: 52px;
+    border-radius: 4px;  
+    background-color: #fff;
+    border:1px solid #d3d4d5 !important; 
+}
+.btn1{
+    margin: 20px auto;
+    text-decoration: none;
+    width: fit-content;
+    background-color: #009fd9;
+    padding: 10px 12px;
+    color: #fff;
+    height: 52px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.btn1:hover{
+    margin: 20px auto;
+    text-decoration: none;
+    width: fit-content;
+    background-color: #009fd9;
+    padding: 10px 12px;
+    color: #fff;
+    height: 52px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.zip-code {
+    display: flex
+;
+}

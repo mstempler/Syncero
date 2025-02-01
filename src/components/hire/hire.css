@@ -1,0 +1,45 @@
+.hire {
+text-align: center;
+padding: 32px 0px;
+
+}
+.hire h4{
+    margin-bottom: 16px;
+    font-size: 20px ;
+    line-height: 28px ;
+    font-weight: 700 ;
+    color: #2f3033;
+}
+.hire-box svg{
+    color: #5968e2!important;
+    margin-bottom: 16px;
+}
+
+.hire-box h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2f3033;
+}
+.hire-box p{
+    
+    font-size: 12px ;
+    line-height: 18px ;
+       margin-top: 4px ;
+       margin-bottom: 16px;
+        color: #676d73 ;
+}
+.btn-hire{
+  
+        margin: 20px auto;
+        text-decoration: none;
+        width: fit-content;
+        background-color: #009fd9;
+        padding: 10px 12px;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: 600;
+    
+}
+.btn-hire:hover{
+    color: #fff !important;
+}

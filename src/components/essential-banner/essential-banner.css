@@ -1,0 +1,62 @@
+.essential-banner{
+    padding: 64px 10px;
+    border-bottom: 1px solid #e9eced;
+    min-height: 100px;
+
+}
+.essential-banner-content h2{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #2f3033;
+    white-space: pre-line;
+}
+.essential-banner-content p{
+    margin: 16px 0px 37px 0px !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #676d73;
+}
+.essential-banner-btn{
+    min-height: 48px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 20px !important;
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+     background-color:  #009fd9 !important;
+}
+.essential-banner-btn:hover{
+   
+    
+        color: #fff !important;
+    
+}
+.essential-banner-content svg {
+    margin-bottom: 10px;
+}
+.essential-banner{
+    
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 768px) and (min-width: 320px)  {
+    .essential-banner{
+        background-image:none;}
+        .household,.essential-list {
+            padding: 20px 10px !important;}
+            .essential-banner {
+                background-image: none !important;
+            }
+            .essential-banner-content h2 {
+                font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    white-space: pre-line;
+            }
+            
+}

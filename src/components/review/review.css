@@ -1,0 +1,80 @@
+.review{
+    padding: 64px 20px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ededed;
+
+}
+.review h2{
+    padding: 0px;
+    font-size: 32px !important;
+    line-height: 40px !important;
+    font-weight: 700 !important;
+    margin: 16px 0px;
+}
+.slider-review h5{ 
+    font-weight: 400;
+    font-size: 28px !important;
+        line-height: 32px !important;
+        margin-bottom: 16px;
+}
+.slider-review span{
+    font-size: 28px !important;
+        line-height: 32px !important;
+        color: #2f3033;
+}
+.testimonial {
+    position: relative;
+    padding: 40px 10px;
+    border-bottom: 4px solid #000 !important;
+}
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    text-align: left;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width: 12px;
+    height: 12px;
+    margin: 0 8px;
+
+    opacity: 1;
+    transform: scale(1.2);
+
+    cursor: pointer;
+    opacity: .5;
+    transition: transform .15s;
+
+
+    padding: 0 !important;
+
+    background-color: #009fd9 !important;
+
+    border-radius: 50% !important;
+
+    border-style: none !important;
+    border-width: 0 !important;
+
+}
+span.swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    margin: 0 8px;
+}
+button.bn.br-100.pa0.bg-blue.carousel-dots_dot__s1diG {
+
+    cursor: pointer;
+    opacity: .5;
+    transition: transform .15s;
+
+    padding: 0 !important;
+
+    background-color: #009fd9 !important;
+
+    border-radius: 50% !important;
+
+    border-style: none !important;
+    border-width: 0 !important;}
+
+@media only screen and (max-width: 768px) and (min-width: 320px)  {
+    .review {
+        padding: 10px ;
+    }
+}

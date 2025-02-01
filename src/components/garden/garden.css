@@ -1,0 +1,43 @@
+.garden-text h4{
+    
+    font-size: 24px !important;
+        line-height: 32px !important;
+        font-weight: 700 !important;
+        margin-bottom: 16px;
+}.garden-text {
+
+    padding: 64px 10px;
+}
+.garden {
+    max-height: 320px;
+    width: 100%;
+    overflow: hidden;
+}
+.garden-text p{
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+    margin-bottom: 40px !important;
+
+
+    color: #676d73 !important;
+}
+.garden-img{
+    width: calc(66% + 500px);
+        margin-right: -675px;
+    display: block;
+   
+}
+.garden-img img{
+    object-fit: contain;
+    object-position: left;
+}
+@media only screen and (max-width: 768px) and (min-width: 320px)  {
+.garen-img {
+        display: none;
+    }
+    .garden-text {
+        padding: 20px 10px !important;
+        margin: 10px;
+    }
+}
